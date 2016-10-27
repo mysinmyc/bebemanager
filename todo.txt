@@ -1,0 +1,7 @@
+docu 
+
+Cos è il bebe manager 
+Gestione dei soggetti
+ Inserimento nuovi eventi
+ Tipi evento
+ Condivisione e copia dati

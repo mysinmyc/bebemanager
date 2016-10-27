@@ -10,7 +10,7 @@ Il soggetto &egrave; l'entit&agrave; a cui si riferiscono gli eventi registrati;
 Al primo accesso al bebe manager viene richiesto il nome del proprio bambino ed il sesso, in modo da creare un soggetto di colore rosa per le femminucce, blu per i maschietti
 
 
-# Aggiunta soggeti
+# Aggiunta soggetti
 
 Per aggiungere un soggeto selezionare la voce "Soggetti/Aggiunti" dal menu a scomparsa
 

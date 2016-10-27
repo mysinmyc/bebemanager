@@ -1,5 +1,3 @@
-{% include base.html %}
-
 <html>
 <head>
 <style>
@@ -10,7 +8,7 @@ td {
 }
 	
 .topBar {
-    background-image: url("{{base}}/assets/img/pattern1.gif");
+    background-image: url("{{site.url}}{{site.baseurl}}/assets/img/pattern1.gif");
 	background-repeat: none;
 	background-size:cover;
 }
@@ -50,7 +48,7 @@ a.linkBarButton:hover, a.linkBarButton:active {
 <div class="linkBar">
   {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="linkBarButton" href="{{site.url}}{{site.baseurl}}/{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
+          <a class="linkBarButton" href="{{site.url}}{{site.baseurl}}{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
           {% endif %}
         {% endfor %}
 </div>

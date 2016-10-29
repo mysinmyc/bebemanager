@@ -1,0 +1,11 @@
+{% capture _BASEURL %}{{ "" | absolute_url }}{% endcapture %}
+<!-- _BASEURL {{ _BASEURL }} -->
+{% if _BASEURL  == "/" %}
+        {% capture _BASEURL%}{{site.url}}{{site.baseurl}}{% endcapture %}
+{% endif %}
+
+{% capture _RELATIVEURL %}{{ "" | relative }}{% endcapture %}
+<!-- _RELATIVEURL {{ _RELATIVEURL }} -->
+{% if _RELATIVEURL  == "" %}
+        {% capture _RELATIVEURL%}{{site.baseurl}}{% endcapture %}
+{% endif %}

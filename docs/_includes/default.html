@@ -2,13 +2,14 @@
 <head>
 <style>
 
+{% include _defaults.html %}
 
 td {
 	font-size: 16px;
 }
 	
 .topBar {
-    background-image: url("{{site.url}}{{site.baseurl}}/assets/img/pattern1.gif");
+    background-image: url("{{_RELATIVEURL}}/assets/img/pattern1.gif");
 	background-repeat: none;
 	background-size:cover;
 }
@@ -42,13 +43,14 @@ a.linkBarButton:hover, a.linkBarButton:active {
 
 </head>
 <body style="margin:0px">
-
+<!-- site.url:{{site.url}} site.baseurl:{{site.baseurl}} -->
 <table  style="width:100%">
 <tr><td style="valign:middle; height:40px"><div class="linkBar">
 <div class="linkBar">
   {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="linkBarButton" href="{{site.url}}{{site.baseurl}}{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
+	
+          <a class="linkBarButton" href="{{_RELATIVE_URL}}{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
           {% endif %}
         {% endfor %}
 </div>

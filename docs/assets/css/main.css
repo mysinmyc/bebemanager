@@ -24,6 +24,7 @@
 
 	.pagesBarNotSelectedItem, .pagesBarSelectedItem {
 		width:100%;
+    		padding: 14px 0px;
 	}	
 
 }
@@ -36,6 +37,9 @@
 	.content {
 		margin:40px;
 		font-size:20px;
+	}
+	.pagesBarNotSelectedItem, .pagesBarSelectedItem {
+    		padding: 14px 25px;
 	}
 }
 
@@ -63,7 +67,6 @@ body {
 }
 
 a.pagesBarNotSelectedItem, a.pagesBarSelectedItem {
-    	padding: 14px 25px;
    	text-align: center;
     	text-decoration: none;
     	display: inline-block;

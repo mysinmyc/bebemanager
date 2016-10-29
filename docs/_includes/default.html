@@ -53,7 +53,7 @@ a.linkBarButton:hover, a.linkBarButton:active {
 	<!-- my_page.url | absolute_url: {{ my_page.url | absolute_url }} -->
           {% if my_page.title %}
 	
-          <a class="linkBarButton" href="{{_RELATIVE_URL}}{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
+          <a class="linkBarButton" href="{{_RELATIVEURL}}{{ my_page.url }}">{{ my_page.title | escape }} </a>
           {% endif %}
         {% endfor %}
 </div>

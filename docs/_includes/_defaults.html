@@ -1,7 +1,7 @@
 <!-- site.host {{site.host}} site.baseurl: {{site.baseurl}} -->
 {% capture _BASEURL %}{{ "" | absolute_url }}{% endcapture %}
 <!-- pre _BASEURL {{ _BASEURL }} -->
-{% if _BASEURL  == "/" %}
+{% if _BASEURL  == "" %}
         {% capture _BASEURL%}{{site.url}}{{site.baseurl}}{% endcapture %}
 {% endif %}
 <!-- post _BASEURL {{ _BASEURL }} -->

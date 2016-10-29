@@ -1,11 +1,13 @@
+<!-- site.host {{site.host}} site.baseurl: {{site.baseurl}} -->
 {% capture _BASEURL %}{{ "" | absolute_url }}{% endcapture %}
-<!-- _BASEURL {{ _BASEURL }} -->
+<!-- pre _BASEURL {{ _BASEURL }} -->
 {% if _BASEURL  == "/" %}
         {% capture _BASEURL%}{{site.url}}{{site.baseurl}}{% endcapture %}
 {% endif %}
-
-{% capture _RELATIVEURL %}{{ "" | relative }}{% endcapture %}
-<!-- _RELATIVEURL {{ _RELATIVEURL }} -->
+<!-- post _BASEURL {{ _BASEURL }} -->
+{% capture _RELATIVEURL %}{{ "" | relative_url }}{% endcapture %}
+<!-- pre _RELATIVEURL {{ _RELATIVEURL }} -->
 {% if _RELATIVEURL  == "" %}
         {% capture _RELATIVEURL%}{{site.baseurl}}{% endcapture %}
 {% endif %}
+<!-- post _RELATIVEURL {{ _RELATIVEURL }} -->

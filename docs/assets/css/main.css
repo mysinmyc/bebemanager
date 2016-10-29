@@ -1,0 +1,66 @@
+
+@media only screen and (min-width: 700px) {
+
+        .topBar {
+                font-size:40px;
+        }
+
+	.content {
+		margin:40px;
+		font-size:20px;
+	}
+}
+
+@media only screen and (max-width: 699px) {
+
+        .topBar{
+                font-size:20px;
+        }
+
+	.content {
+		margin:20px;
+	}
+}
+
+
+
+body {
+	margin: 0px;
+}
+
+
+.pagesBar {
+        background-color: #27406f;
+        list-style-type:none;
+}
+
+a.pagesBarNotSelectedItem, a.pagesBarSelectedItem {
+    	padding: 14px 25px;
+   	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+}
+
+a.pagesBarSelectedItem:hover, a.pagesBarSelectedItem:active {
+        color:white;
+        background:#27406f;
+}
+
+a.pagesBarSelectedItem:link, a.pagesBarSelectedItem:visited {
+        background:white;
+        color:#27406f;
+	font-weight: bold;
+    	text-decoration: none;
+}
+
+a.pagesBarNotSelectedItem:hover, a.pagesBarNotSelectedItem:active {
+        background:white;
+        color:#27406f;
+}
+
+a.pagesBarNotSelectedItem:link, a.pagesBarNotSelectedItem:visited {
+        background: none;
+        color:white;
+    	text-decoration: none;
+}
+

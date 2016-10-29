@@ -1,0 +1,14 @@
+<div class="pagesBar">
+  {% if page.title %}
+  	<a class="pagesBarNotSelectedItem" href="{{_RELATIVEURL}}/">Home</a>
+  {% endif %}
+  {% for vCurPage in site.pages %}
+        <!-- vCurPage.url  {{ vCurPage.url | relative_url }} -->
+        <!-- vCurPage.url | relative_url: {{ vCurPage.url | relative_url }} -->
+        <!-- vCurPage.url | absolute_url: {{ vCurPage.url | absolute_url }} -->
+          {% if vCurPage.title %}
+          <a class="pagesBar{% if vCurPage.url != page.url %}Not{% endif%}SelectedItem" href="{{_RELATIVEURL}}{{ vCurPage.url }}">{{ vCurPage.title | escape }} </a>
+          {% endif %}
+        {% endfor %}
+</div>
+

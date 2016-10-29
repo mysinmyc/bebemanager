@@ -1,2 +1,14 @@
-
-{% include default.html %}
+{% include _defaults.html %}
+<html>
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include body_header.html %}
+{% include pagesbar.html %}
+<div class="topBar">{{page.title}}</div>
+<div class="content">
+{{content}} 
+</div>
+{% include body_footer.html %}
+</body>

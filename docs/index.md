@@ -1,6 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+Quando nacque la mia prima figlia mia moglie inizi&ograve; ad appuntare tutte le informazioni sulla bambina in un blocco degli appunti dato che la memoria era la prima vittima dello sconbussolamento portato dalla gestione quitidiana della bimba.
+
+La prima volta che le chiesi di quanto pesava la bambina una settimana prima capii che un block notes per&ograve; non era la risposta, e non volevo neanche lascirla in balia delle troppe app mobile presenti con eccessive informazioni pedriatiche (grafici di crescita,...)
+

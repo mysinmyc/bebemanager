@@ -95,3 +95,11 @@ a.pagesBarNotSelectedItem:link, a.pagesBarNotSelectedItem:visited {
     	text-decoration: none;
 }
 
+
+.legal {
+	
+    	display: inline-block;
+	margin-top: 80px;
+	margin-left: 40px;
+    	font-size: 14px;
+}

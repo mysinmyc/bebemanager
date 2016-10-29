@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Copia dei dati
-permalink: senddata
+#permalink: senddata
 ---
 
 

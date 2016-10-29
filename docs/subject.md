@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gestione dei soggetti
-permalink: subject
+#permalink: subject
 ---
 
 

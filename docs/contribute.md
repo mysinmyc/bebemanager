@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Come contribuire
-permalink: contribute
+#permalink: contribute
 ---
 
 Questa applicazione &egrave; aperta a chiunque voglia contribuire con suggerimenti o attivamente.

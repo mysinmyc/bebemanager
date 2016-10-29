@@ -2,7 +2,10 @@
 layout: home
 ---
 
-Quando nacque la mia prima figlia mia moglie inizi&ograve; ad appuntare tutte le informazioni sulla bambina in un blocco degli appunti dato che la memoria era la prima vittima dello sconbussolamento portato dalla gestione quitidiana della bimba.
 
-La prima volta che le chiesi di quanto pesava la bambina una settimana prima capii che un block notes per&ograve; non era la risposta, e non volevo neanche lascirla in balia delle troppe app mobile presenti con eccessive informazioni pedriatiche (grafici di crescita,...)
+La prima vittima dopo il sonnno dello scombussolamento generato dalla nascita di un bimbo &grave; la memoria. 
 
+Mia moglie ad esempio inizi&ograve; ad appuntare tutte le informazioni sulla bambina in un blocco degli appunti. La prima volta che le chiesi l'andamento del peso capii che scrivere le informazioni su carta era come sotterrarle; cercai allora un'app mobile, ma molte di quelle presenti presenti con eccessive informazioni pedriatiche (grafici di crescita,...) che avrebbero messo in ansia mia moglie.
+
+Da qui nacque il Bebe Manager, un semplice registro attivit&agrave; senza pretese
+ 

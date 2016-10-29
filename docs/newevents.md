@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inserimento nuovi eventi
-permalink: newevents
+#permalink: newevents
 ---
 
 Per inserire un nuovo evento premere sul pulsante + presente in basso a destra.

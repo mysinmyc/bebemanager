@@ -42,12 +42,16 @@ a.linkBarButton:hover, a.linkBarButton:active {
 
 </head>
 <body style="margin:0px">
-
+<!-- site.url:{{site.url}} site.baseurl:{{site.baseurl}} -->
 <table  style="width:100%">
 <tr><td style="valign:middle; height:40px"><div class="linkBar">
 <div class="linkBar">
   {% for my_page in site.pages %}
+	<!-- my_page.url  {{ my_page.url | relative_url }} -->
+	<!-- my_page.url | relative_url: {{ my_page.url | relative_url }} -->
+	<!-- my_page.url | absolute_url: {{ my_page.url | absolute_url }} -->
           {% if my_page.title %}
+	
           <a class="linkBarButton" href="{{site.url}}{{site.baseurl}}{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>
           {% endif %}
         {% endfor %}

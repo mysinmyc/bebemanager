@@ -5,9 +5,9 @@ title: Perchè un bebemanaeger
 ---
 
 
-I primi giorni di un bambino sono un evento talmente nuovo per i genitori che &nbsp; difficile anche ricordarsi il proprio nome.
+I primi giorni di un bambino sono un evento talmente nuovo per i genitori che è difficile anche ricordarsi il proprio nome.
 
-Cercando sul play store applicazioni per tenere traccia delle informazioni sul bebe ho trovato tante cose belle ma con troppe funzionalit&agrave; da pediatra come curve di accrescimento che potrebbero mandare in ansia una mamma.
+Cercando sul play store applicazioni per tenere traccia delle informazioni sul bebe ho trovato tante cose belle ma con troppe funzionalità da pediatra come curve di accrescimento che potrebbero mandare in ansia una mamma.
 
 Questa app senza pretesa si limita a registrare le informazioni sul prorio telefonico (non sono inviate esternamente se non su richiesta).
 

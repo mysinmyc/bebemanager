@@ -5,7 +5,7 @@ title: Gestione dei soggetti
 ---
 
 
-Il soggetto &egrave; l'entit&agrave; a cui si riferiscono gli eventi registrati, ad esempio un bambino; ogni soggetto &egrave; identificato da uno nome univoco e da un colore
+Il soggetto è l'entità a cui si riferiscono gli eventi registrati, ad esempio un bambino; ogni soggetto è identificato da uno nome univoco e da un colore
 
 Al primo accesso al bebe manager viene richiesto il nome del proprio bambino ed il sesso, in modo da creare un soggetto di colore rosa per le femminucce, blu per i maschietti
 
@@ -20,7 +20,7 @@ Per aggiungere un soggetto selezionare la voce *Soggetti/Aggiungi* dal menu a sc
 
 ## Modifica e rimozione di un soggetto
 
-Dal menu a scomparsa selezionare *Configura / Modifica {nomeSoggetto}*. Verr&agrave; presentato un form che consente la modifica e rimozione del soggetto.
+Dal menu a scomparsa selezionare *Configura / Modifica {nomeSoggetto}*. Verrà presentato un form che consente la modifica e rimozione del soggetto.
 
 ![subject2](assets/img/subject2.png)
 

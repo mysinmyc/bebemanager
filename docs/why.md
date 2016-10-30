@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Perchè un bebemnager
+title: Perchè un bebeanager
 #permalink: why
 ---
 
